@@ -217,3 +217,9 @@ For 6‑DoF datasets, a short GT source note is included in prose.
 - **WHU‑PA3D** (ISPRS 2025) — real planetary‑analog field dataset (Qaidam Basin) with handheld LiDAR + UAV imagery.<br>
   <kbd>VO/SLAM</kbd> <kbd>6DoF-traj</kbd> <kbd>real</kbd> <kbd>RGB+LiDAR+IMU</kbd><br>
   Paper: [ISPRS](https://doi.org/10.5194/isprs-archives-XLVIII-G-2025-725-2025)
+
+---
+
+## Contributing
+
+Contributions welcome! Read the [contribution guidelines](contributing.md) first.
