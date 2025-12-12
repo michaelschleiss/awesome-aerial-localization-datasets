@@ -16,7 +16,7 @@ Ensure your pull request adheres to the following guidelines:
 ```markdown
 - **Dataset Name** (Venue Year) — Short description with key details.<br>
   <kbd>Task</kbd> <kbd>DoF</kbd> <kbd>Realism</kbd> <kbd>Query↔Ref</kbd> <kbd>Modality</kbd><br>
-  [[[arXiv]]](link) · [[[IEEE]]](link) · [[[Project]]](link) · [[[Dataset]]](link)
+  [\[\[arXiv\]\]](link) · [\[\[IEEE\]\]](link) · [\[\[Project\]\]](link) · [\[\[Dataset\]\]](link)
 ```
 
 ### Tags
