@@ -10,35 +10,37 @@ Primary audience: researchers looking for datasets to **evaluate or train** retr
 Each dataset appears **once** with a compact set of tags. Scale/size are written in prose, not tags.  
 For 6‑DoF TRN datasets, add a short **GT source clause** in prose (e.g., “GT: SfM+RTK”, “GT: GNSS/INS”, “GT: synthetic exact”).
 
+In the public `README.md`, tags are rendered as `<kbd>…</kbd>` badges (no square brackets) so they are visually distinct from links.
+
 **Task**
-- `[VPR]` — retrieval / place recognition / coarse geo‑localization
-- `[TRN]` — map‑referenced absolute localization / terrain‑relative navigation
-- `[VO/SLAM]` — relative odometry / SLAM trajectories (supporting)
+- `<kbd>VPR</kbd>` — retrieval / place recognition / coarse geo‑localization
+- `<kbd>TRN</kbd>` — map‑referenced absolute localization / terrain‑relative navigation
+- `<kbd>VO/SLAM</kbd>` — relative odometry / SLAM trajectories (supporting)
 
 **Degrees of Freedom**
-- `[2-3DoF]` — position (and sometimes yaw) only
-- `[6DoF]` — full camera pose
-- `[6DoF-traj]` — full trajectory GT (for SLAM/VO)
+- `<kbd>2-3DoF</kbd>` — position (and sometimes yaw) only
+- `<kbd>6DoF</kbd>` — full camera pose
+- `<kbd>6DoF-traj</kbd>` — full trajectory GT (for SLAM/VO)
 
 **Realism**
-- `[real]` — real aerial/space queries
-- `[synth]` — fully synthetic / rendered
-- `[hybrid]` — real queries + synthetic or geodata references / mixed
+- `<kbd>real</kbd>` — real aerial/space queries
+- `<kbd>synth</kbd>` — fully synthetic / rendered
+- `<kbd>hybrid</kbd>` — real queries + synthetic or geodata references / mixed
 
 **Query↔Reference (fixed vocabulary)**
-- `[UAV↔sat]` — UAV/drone query vs satellite reference tiles
-- `[UAV↔ortho+DSM]` — UAV query vs orthophoto + elevation/DSM reference
-- `[UAV↔LoD]` — UAV query vs 3D city model (LoD2/LoD3 or mesh)
-- `[aircraft↔ortho+DSM]` — manned aircraft query vs ortho+DSM reference
-- `[space↔sat]` — ISS/orbital/astronaut query vs satellite reference
+- `<kbd>UAV↔sat</kbd>` — UAV/drone query vs satellite reference tiles
+- `<kbd>UAV↔ortho+DSM</kbd>` — UAV query vs orthophoto + elevation/DSM reference
+- `<kbd>UAV↔LoD</kbd>` — UAV query vs 3D city model (LoD2/LoD3 or mesh)
+- `<kbd>aircraft↔ortho+DSM</kbd>` — manned aircraft query vs ortho+DSM reference
+- `<kbd>space↔sat</kbd>` — ISS/orbital/astronaut query vs satellite reference
 
 **Modalities**
-- `[RGB]`
-- `[RGB+IMU]`
-- `[RGB+LiDAR]`
-- `[RGB+LiDAR+IMU]`
-- `[thermal]`
-- `[events]`
+- `<kbd>RGB</kbd>`
+- `<kbd>RGB+IMU</kbd>`
+- `<kbd>RGB+LiDAR</kbd>`
+- `<kbd>RGB+LiDAR+IMU</kbd>`
+- `<kbd>thermal</kbd>`
+- `<kbd>events</kbd>`
 
 ---
 
@@ -74,11 +76,11 @@ Ordering rule inside each subsection:
 ## Entry Template
 
 ```
-- **Dataset Name** (venue year) — 1‑line what/where/scale. GT: … (only for 6‑DoF).
-  [task tags] [DoF tag] [realism tag] [query↔ref tag] [modality tag]
-  Links: paper / dataset / code (when public).
+- **Dataset Name** (venue year) — 1‑line what/where/scale. GT: … (only for 6‑DoF).<br>
+  Tags: <kbd>VPR</kbd> <kbd>2-3DoF</kbd> <kbd>real</kbd> <kbd>UAV↔sat</kbd> <kbd>RGB</kbd><br>
+  Links: [paper](...) · [dataset](...) · [code](...)
 ```
 
 Notes:
-- If a dataset supports multiple tasks, list the **primary task first**, then secondary tasks (e.g., `[VPR, TRN]`).
-- Avoid new `[query↔ref]` tags unless a dataset genuinely does not fit the fixed set.
+- If a dataset supports multiple tasks, list the **primary task first**, then secondary tasks (e.g., `<kbd>VPR</kbd> <kbd>TRN</kbd>`).
+- Avoid new query↔ref tags unless a dataset genuinely does not fit the fixed set.
