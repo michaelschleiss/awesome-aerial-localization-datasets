@@ -1,4 +1,4 @@
-# Awesome Aerial Localization Datasets
+# Awesome Aerial Localization Datasets [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 A curated list for **aerial/UAV visual localization, VPR, and terrain‑relative navigation (TRN)**, plus supporting VO/SLAM datasets.
 Each dataset appears once with compact tags; scale/size is in prose.
