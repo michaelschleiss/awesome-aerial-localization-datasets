@@ -119,21 +119,15 @@ For 6‑DoF datasets, a short GT source note is included in prose.
 
 ## VO / SLAM
 
+### Real‑world
+
 - **Blackbird** (ISER 2018) — aggressive indoor VIO flights with high‑rate motion‑capture GT.<br>
   <kbd>VO/SLAM</kbd> <kbd>6DoF-traj</kbd> <kbd>real</kbd> <kbd>RGB+IMU</kbd><br>
   Paper: [arXiv](https://arxiv.org/abs/1810.01987) · [Springer](https://link.springer.com/chapter/10.1007/978-3-030-33950-0_12)
 
-- **Mid‑Air** (CVPRW 2019) — synthetic low‑altitude drone VO/SLAM sequences with dense GT.<br>
-  <kbd>VO/SLAM</kbd> <kbd>6DoF-traj</kbd> <kbd>synth</kbd> <kbd>RGB</kbd><br>
-  Paper: [CVF](https://openaccess.thecvf.com/content_CVPRW_2019/html/UAVision/Fonder_Mid-Air_A_Multi-Modal_Dataset_for_Extremely_Low_Altitude_Drone_Flights_CVPRW_2019_paper.html) · [IEEE](https://ieeexplore.ieee.org/document/9025697/)
-
 - **UZH‑FPV Drone Racing** (ICRA 2019) — high‑speed racing sequences with RGB + event camera + IMU.<br>
   <kbd>VO/SLAM</kbd> <kbd>6DoF-traj</kbd> <kbd>real</kbd> <kbd>RGB+events+IMU</kbd><br>
   Paper: [IEEE](https://ieeexplore.ieee.org/document/8793887/)
-
-- **TartanAir** (IROS 2020) — large photorealistic sim VO/SLAM benchmark (30 env, 1037 sequences).<br>
-  <kbd>VO/SLAM</kbd> <kbd>6DoF-traj</kbd> <kbd>synth</kbd> <kbd>RGB</kbd><br>
-  Paper: [IEEE](https://ieeexplore.ieee.org/document/9341801/)
 
 - **VID Dataset** (arXiv 2021) — visual‑inertial‑dynamical multirotor flights with external‑force GT.<br>
   <kbd>VO/SLAM</kbd> <kbd>6DoF-traj</kbd> <kbd>real</kbd> <kbd>RGB+IMU</kbd><br>
@@ -158,6 +152,16 @@ For 6‑DoF datasets, a short GT source note is included in prose.
 - **UAVScenes** (ICCV 2025) — semantic multi‑task extension of MARS‑LVIG with frame‑wise labels (~120k frames).<br>
   <kbd>VO/SLAM</kbd> <kbd>VPR</kbd> <kbd>TRN</kbd> <kbd>6DoF-traj</kbd> <kbd>real</kbd> <kbd>RGB+LiDAR+IMU</kbd><br>
   Paper: [arXiv](https://arxiv.org/abs/2507.22412) · [CVF](https://openaccess.thecvf.com/content/ICCV2025/html/Wang_UAVScenes_A_Multi-Modal_Dataset_for_UAVs_ICCV_2025_paper.html)
+
+### Synthetic / sim
+
+- **Mid‑Air** (CVPRW 2019) — synthetic low‑altitude drone VO/SLAM sequences with dense GT.<br>
+  <kbd>VO/SLAM</kbd> <kbd>6DoF-traj</kbd> <kbd>synth</kbd> <kbd>RGB</kbd><br>
+  Paper: [CVF](https://openaccess.thecvf.com/content_CVPRW_2019/html/UAVision/Fonder_Mid-Air_A_Multi-Modal_Dataset_for_Extremely_Low_Altitude_Drone_Flights_CVPRW_2019_paper.html) · [IEEE](https://ieeexplore.ieee.org/document/9025697/)
+
+- **TartanAir** (IROS 2020) — large photorealistic sim VO/SLAM benchmark (30 env, 1037 sequences).<br>
+  <kbd>VO/SLAM</kbd> <kbd>6DoF-traj</kbd> <kbd>synth</kbd> <kbd>RGB</kbd><br>
+  Paper: [IEEE](https://ieeexplore.ieee.org/document/9341801/)
 
 ---
 

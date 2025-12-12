@@ -57,7 +57,8 @@ Top‑level buckets (task‑first):
    - Synthetic / rendered
 
 3. **VO / SLAM (Supporting)**
-   - UAV multi‑sensor or simulation datasets commonly reused for localization.
+   - Real‑world
+   - Synthetic / sim
 
 4. **Benchmarks / Surveys**
    - Method papers or unified evals that do **not** release new datasets.
