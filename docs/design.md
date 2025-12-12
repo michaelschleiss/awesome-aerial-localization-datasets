@@ -77,8 +77,8 @@ Ordering rule inside each subsection:
 
 ```
 - **Dataset Name** (venue year) — 1‑line what/where/scale. GT: … (only for 6‑DoF).<br>
-  Tags: <kbd>VPR</kbd> <kbd>2-3DoF</kbd> <kbd>real</kbd> <kbd>UAV↔sat</kbd> <kbd>RGB</kbd><br>
-  Links: [paper](...) · [dataset](...) · [code](...)
+  <kbd>VPR</kbd> <kbd>2-3DoF</kbd> <kbd>real</kbd> <kbd>UAV↔sat</kbd> <kbd>RGB</kbd><br>
+  Paper: [paper](...) · [dataset](...) · [code](...)
 ```
 
 Notes:
