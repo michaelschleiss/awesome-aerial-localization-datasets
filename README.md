@@ -161,7 +161,7 @@ For 6‑DoF datasets, a short GT source note is included in prose.
 
 - **TartanAir** (IROS 2020) — large photorealistic sim VO/SLAM benchmark (30 env, 1037 sequences).<br>
   <kbd>VO/SLAM</kbd> <kbd>6DoF-traj</kbd> <kbd>synth</kbd> <kbd>RGB</kbd><br>
-  Paper: [IEEE](https://ieeexplore.ieee.org/document/9341801/)
+  Paper: [arXiv](https://arxiv.org/abs/2003.14338) · [IEEE](https://ieeexplore.ieee.org/document/9341801/)
 
 ---
 
