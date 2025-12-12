@@ -4,6 +4,15 @@ A curated list for **aerial/UAV visual localization, VPR, and terrain‑relative
 Each dataset appears once with compact tags; scale/size is in prose.
 For 6‑DoF datasets, a short GT source note is included in prose.
 
+## Contents
+
+- [Legend](#legend)
+- [Retrieval / VPR (2-3 DoF)](#retrieval--vpr-2-3-dof)
+- [Visual Localization / TRN (6 DoF)](#visual-localization--trn-6-dof)
+- [VO / SLAM](#vo--slam)
+- [Benchmarks / Surveys](#benchmarks--surveys)
+- [Planetary / Analog](#planetary--analog)
+
 ## Legend
 
 - **Task:** <kbd>VPR</kbd> <kbd>TRN</kbd> <kbd>VO/SLAM</kbd>
@@ -13,7 +22,7 @@ For 6‑DoF datasets, a short GT source note is included in prose.
 - **Modalities:** <kbd>RGB</kbd> <kbd>RGB+IMU</kbd> <kbd>RGB+LiDAR</kbd> <kbd>RGB+LiDAR+IMU</kbd> <kbd>thermal</kbd> <kbd>events</kbd>
 ---
 
-## Retrieval / VPR (2–3 DoF)
+## Retrieval / VPR (2-3 DoF)
 
 ### Real‑world
 
