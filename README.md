@@ -28,7 +28,7 @@ For 6‑DoF datasets, a short GT source note is included in prose.
 
 - **University‑1652** (ACM MM 2020) — drone↔satellite benchmark over 72 universities (also includes ground images).<br>
   <kbd>VPR</kbd> <kbd>2-3DoF</kbd> <kbd>real</kbd> <kbd>UAV↔sat</kbd> <kbd>RGB</kbd><br>
-  [\[arXiv\]](https://arxiv.org/abs/2002.12186) · [\[ACM\]](https://dl.acm.org/doi/10.1145/3394171.3413896) · [\[Project\]](https://github.com/layumi/University1652-Baseline) · [\[Dataset (request)\]](https://github.com/layumi/University1652-Baseline/blob/master/Request.md)<br>
+  [\[arXiv\]](https://arxiv.org/abs/2002.12186) · [\[ACM\]](https://dl.acm.org/doi/10.1145/3394171.3413896) · [\[Project\]](https://github.com/layumi/University1652-Baseline)<br>
 
 - **WildNav** (arXiv 2022) — wilderness UAV nadir images localized against open‑source satellite maps (Finland).<br>
   <kbd>TRN</kbd> <kbd>2-3DoF</kbd> <kbd>real</kbd> <kbd>UAV↔sat</kbd> <kbd>RGB</kbd><br>
