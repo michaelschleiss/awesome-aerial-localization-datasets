@@ -121,6 +121,10 @@ For 6‑DoF datasets, a short GT source note is included in prose.
 
 ### Real‑world
 
+- **EuRoC MAV** (IJRR 2016) — indoor micro‑aerial visual‑inertial dataset (stereo+IMU) with motion‑capture / Leica GT, 11 sequences.<br>
+  <kbd>VO/SLAM</kbd> <kbd>6DoF-traj</kbd> <kbd>real</kbd> <kbd>RGB+IMU</kbd><br>
+  Paper: [IJRR](https://doi.org/10.1177/0278364915620033) · [Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets)
+
 - **Blackbird** (ISER 2018) — aggressive indoor VIO flights with high‑rate motion‑capture GT.<br>
   <kbd>VO/SLAM</kbd> <kbd>6DoF-traj</kbd> <kbd>real</kbd> <kbd>RGB+IMU</kbd><br>
   Paper: [arXiv](https://arxiv.org/abs/1810.01987) · [Springer](https://link.springer.com/chapter/10.1007/978-3-030-33950-0_12)
