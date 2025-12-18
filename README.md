@@ -62,6 +62,10 @@ For 6‑DoF datasets, a short GT source note is included in prose.
   <kbd>VPR</kbd> <kbd>2-3DoF</kbd> <kbd>real</kbd> <kbd>UAV↔sat</kbd> <kbd>RGB</kbd><br>
   [\[MDPI\]](https://www.mdpi.com/2072-4292/16/7/1249)<br>
 
+- **SatLoc** (Remote Sens. 2025) — SatLoc dataset for UAV↔satellite localization in GNSS‑denied environments (plus SatLoc‑Fusion baseline).<br>
+  <kbd>VPR</kbd> <kbd>TRN</kbd> <kbd>2-3DoF</kbd> <kbd>real</kbd> <kbd>UAV↔sat</kbd> <kbd>RGB</kbd><br>
+  [\[PDF\]](../related_datasets/remotesensing-17-03048.pdf)<br>
+
 - **UAV‑VisLoc** (arXiv 2024) — real UAV↔satellite retrieval over 11 sites in China, 6.7k images.<br>
   <kbd>VPR</kbd> <kbd>2-3DoF</kbd> <kbd>real</kbd> <kbd>UAV↔sat</kbd> <kbd>RGB</kbd><br>
   [\[arXiv\]](https://arxiv.org/abs/2405.11936) · [\[Project\]](https://github.com/IntelliSensing/UAV-VisLoc)<br>
@@ -98,6 +102,10 @@ For 6‑DoF datasets, a short GT source note is included in prose.
 
 ### Real / Hybrid
 
+- **AirLoc** (arXiv 2023) — aerial‑to‑ground 6‑DoF localization via render‑and‑compare; 1.4k queries with day/night, textured mesh reference. GT: SfM.<br>
+  <kbd>TRN</kbd> <kbd>6DoF</kbd> <kbd>real</kbd> <kbd>UAV↔mesh</kbd> <kbd>RGB</kbd><br>
+  [\[arXiv\]](https://arxiv.org/abs/2302.06287) · [\[Project\]](https://github.com/sair-lab/AirLoc)<br>
+
 - **CrossLoc** (CVPR 2022) — real + rendered aerial queries localized to geodata references. GT: SfM (real) / exact (synth).<br>
   <kbd>TRN</kbd> <kbd>6DoF</kbd> <kbd>hybrid</kbd> <kbd>UAV↔ortho+DSM</kbd> <kbd>RGB</kbd><br>
   [\[arXiv\]](https://arxiv.org/abs/2112.09081) · [\[CVF\]](https://openaccess.thecvf.com/content/CVPR2022/html/Yan_CrossLoc_Scalable_Aerial_Localization_Assisted_by_Multimodal_Synthetic_Data_CVPR_2022_paper.html) · [\[Project\]](https://crossloc.github.io) · [\[Dataset\]](http://datadryad.org/stash/dataset/doi:10.5061/dryad.mgqnk991c)<br>
@@ -119,6 +127,10 @@ For 6‑DoF datasets, a short GT source note is included in prose.
   [\[arXiv\]](https://arxiv.org/abs/2509.18350) · [\[OpenReview\]](https://openreview.net/forum?id=VcUmuGXhaI) · [\[Project\]](https://deepscenario.github.io/OrthoLoC)<br>
 
 ### Synthetic / rendered
+
+- **MatrixCity** (ICCV 2023) — large‑scale synthetic city (28 km², UE5) with 67k aerial + 452k street images; exact poses, depth, normals. Designed for neural rendering but aerial subset useful for localization training.<br>
+  <kbd>TRN</kbd> <kbd>6DoF</kbd> <kbd>synth</kbd> <kbd>UAV↔mesh</kbd> <kbd>RGB</kbd><br>
+  [\[arXiv\]](https://arxiv.org/abs/2309.16553) · [\[CVF\]](https://openaccess.thecvf.com/content/ICCV2023/html/Li_MatrixCity_A_Large-scale_City_Dataset_for_City-scale_Neural_Rendering_and_ICCV_2023_paper.html) · [\[Project\]](https://city-super.github.io/matrixcity/) · [\[Code\]](https://github.com/city-super/MatrixCity)<br>
 
 - **UAVD4L** (3DV 2024) — rendered 6‑DoF UAV localization against 3D models/DSMs (includes LoD extension). GT: synthetic exact.<br>
   <kbd>TRN</kbd> <kbd>VPR</kbd> <kbd>6DoF</kbd> <kbd>synth</kbd> <kbd>UAV↔LoD</kbd> <kbd>RGB</kbd><br>
@@ -182,6 +194,9 @@ For 6‑DoF datasets, a short GT source note is included in prose.
 
 - **AnyVisLoc Benchmark** (arXiv 2025) — unified AVL benchmark on AnyVisLoc + prior datasets; introduces PDM@K.<br>
   [\[arXiv\]](https://arxiv.org/abs/2503.10692) · [\[Project\]](https://github.com/UAV-AVL/Benchmark)<br>
+- **UAVPairs** (arXiv 2025) — match pair retrieval benchmark for large‑scale UAV images; 21.6k images, 30 scenes, SfM‑derived geometric similarity.<br>
+  <kbd>VPR</kbd> <kbd>2-3DoF</kbd> <kbd>real</kbd> <kbd>RGB</kbd><br>
+  [\[arXiv\]](https://arxiv.org/abs/2505.22098)<br>
 - **Aerial VPR Survey** (arXiv 2024) — comprehensive survey on visual place recognition for aerial imagery.<br>
   [\[arXiv\]](https://arxiv.org/abs/2406.00885) · [\[Project\]](https://github.com/prime-slam/aero-vloc)<br>
 ---
