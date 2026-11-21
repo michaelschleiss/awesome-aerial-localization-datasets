@@ -38,6 +38,10 @@ For 6‑DoF datasets, a short GT source note is included in prose.
   <kbd>VPR</kbd> <kbd>TRN</kbd> <kbd>2-3DoF</kbd> <kbd>real</kbd> <kbd>UAV↔sat</kbd> <kbd>thermal</kbd><br>
   [\[arXiv\]](https://arxiv.org/abs/2306.02994) · [\[IEEE\]](https://ieeexplore.ieee.org/document/10342068) · [\[Project\]](https://github.com/arplaboratory/satellite-thermal-geo-localization)<br>
 
+- **Thermal‑UAV / SCC‑Loc** (arXiv 2026) — multi‑temporal nadir thermal UAV sequences (DJI Matrice 4T, Changsha) matched to satellite orthophoto + DSM references, 11.9k images.<br>
+  <kbd>VPR</kbd> <kbd>TRN</kbd> <kbd>2-3DoF</kbd> <kbd>real</kbd> <kbd>UAV↔sat</kbd> <kbd>thermal</kbd><br>
+  [\[arXiv\]](https://arxiv.org/abs/2604.03120) · [\[Project\]](https://github.com/FloralHercules/SCC-Loc) · [\[Dataset\]](https://huggingface.co/datasets/FloralHercules/Thermal-UAV)<br>
+
 - **FoundLoc / Nardo‑Air** (arXiv 2023) — UAV trajectories with satellite refs for GNSS‑denied localization; seasonal/lighting changes.<br>
   <kbd>VPR</kbd> <kbd>TRN</kbd> <kbd>2-3DoF</kbd> <kbd>real</kbd> <kbd>UAV↔sat</kbd> <kbd>RGB+IMU</kbd><br>
   [\[arXiv\]](https://arxiv.org/abs/2310.16299) · [\[Project\]](https://anyloc.github.io/FoundLoc/) · [\[Code\]](https://github.com/AnyLoc/AnyLoc) · [\[Dataset\]](https://drive.google.com/drive/u/1/folders/1CweSoePAxo7znoHMJmy5Ntn3CJqQrZ_u)<br>
@@ -125,6 +129,10 @@ For 6‑DoF datasets, a short GT source note is included in prose.
 - **OrthoLoC** (NeurIPS 2025) — UAV↔ortho+DSM localization across 47 regions, 16k images. GT: SfM+RTK.<br>
   <kbd>TRN</kbd> <kbd>VPR</kbd> <kbd>6DoF</kbd> <kbd>hybrid</kbd> <kbd>UAV↔ortho+DSM</kbd> <kbd>RGB</kbd><br>
   [\[arXiv\]](https://arxiv.org/abs/2509.18350) · [\[OpenReview\]](https://openreview.net/forum?id=VcUmuGXhaI) · [\[Project\]](https://deepscenario.github.io/OrthoLoC)<br>
+
+- **Leaving the City (LTC)** (ECCV 2026) — six aerial flights (2022–2024) over unstructured terrain in Germany for cross‑season localization against state orthophotos + DSMs; nadir global‑shutter grayscale camera with GNSS/INS, IMU, barometer, magnetometer and land‑cover masks. GT: GNSS/INS.<br>
+  <kbd>TRN</kbd> <kbd>VPR</kbd> <kbd>VO/SLAM</kbd> <kbd>6DoF-traj</kbd> <kbd>real</kbd> <kbd>aircraft↔ortho+DSM</kbd> <kbd>RGB+IMU</kbd><br>
+  [\[Springer\]](https://link.springer.com/chapter/10.1007/978-3-032-37261-1_7) · [\[Project\]](https://ltc.cvg.cit.tum.de/)<br>
 
 ### Synthetic / rendered
 
