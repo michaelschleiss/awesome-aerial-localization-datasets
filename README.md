@@ -130,9 +130,9 @@ For 6‑DoF datasets, a short GT source note is included in prose.
   <kbd>TRN</kbd> <kbd>VPR</kbd> <kbd>6DoF</kbd> <kbd>hybrid</kbd> <kbd>UAV↔ortho+DSM</kbd> <kbd>RGB</kbd><br>
   [\[arXiv\]](https://arxiv.org/abs/2509.18350) · [\[OpenReview\]](https://openreview.net/forum?id=VcUmuGXhaI) · [\[Project\]](https://deepscenario.github.io/OrthoLoC)<br>
 
-- **Leaving the City (LTC)** (ECCV 2026) — six aerial flights (2022–2024) over unstructured terrain in Germany for cross‑season localization against state orthophotos + DSMs; nadir camera with GNSS/INS, IMU, barometer, magnetometer and land‑cover masks. GT: GNSS/INS.<br>
+- **Leaving the City (LTC)** (ECCV 2026) — six aerial flights (2022–2024) over unstructured terrain in Germany for cross‑season localization against state orthophotos + DSMs; nadir global‑shutter grayscale camera with GNSS/INS, IMU, barometer, magnetometer and land‑cover masks. GT: GNSS/INS.<br>
   <kbd>TRN</kbd> <kbd>VPR</kbd> <kbd>VO/SLAM</kbd> <kbd>6DoF-traj</kbd> <kbd>real</kbd> <kbd>aircraft↔ortho+DSM</kbd> <kbd>RGB+IMU</kbd><br>
-  [\[Project\]](https://ltc.cvg.cit.tum.de/)<br>
+  [\[Springer\]](https://link.springer.com/chapter/10.1007/978-3-032-37261-1_7) · [\[Project\]](https://ltc.cvg.cit.tum.de/)<br>
 
 ### Synthetic / rendered
 
